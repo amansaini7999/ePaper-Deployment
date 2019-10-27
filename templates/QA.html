@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question Answer</title>
+</head>
+<body>
+  <form action="{{url_for('QA')}}" method="POST">
+    <label>Q1. What is Dead Lock?</label><br>
+    <textarea id="A" name="A1" placeholder="Enter your Answer"></textarea><br>
+    <label>Q2. What is a Thread?</label><br>
+    <textarea id="A" name="A2" placeholder="Enter your Answer"></textarea><br>
+
+    <input type="submit" id= "btn" value="Submit" />
+
+  </form>
+  <br><br>
+  {{A1}}<br><br>{{sim1}}
+  {{A2}}<br><br>{{sim2}}
+</body>
+</html>
